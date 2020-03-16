@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouMovie.db</title>
+    <link rel="icon" href="img/fav.png" type="image/png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/8e8f87ab3b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <header id="header">
+            <div class="container">
+                <nav>
+                    <a href="index.html"><img src="img/logo.svg" class="logo"></a>
+		            <div class="right">
+					    <a href="#"><i class="fas fa-fire"></i> Tendencias</a>
+					    <a href="#"><i class="fas fa-video"></i> Recomendaciones</a>
+                    </div>
+                </nav>
+                <h1 class="text-center col-sm" >Encuentra aqui lo que estas buscando</h1>
+                <div class="col-12 col-lg-8 col-xl-8 mx-auto">
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam adipisci ut consectetur corporis similique, in sit laborum debitis harum. Ullam dolore voluptates voluptatibus perferendis adipisci facilis. Obcaecati possimus esse mollitia!</p>
+                </div>
+                <div class="row justify-content-md-center">
+                    <div class="col-md-6">     
+                          <form role="form" id="form-buscar">
+                          <div class="form-group">
+                          <div class="input-group">
+                          <input id="query" class="form-control" type="search" onkeyup="buscar()" name="search" placeholder="Ingrese el nombre de la pelicula..." required/>
+                          <span class="input-group-btn">
+                          </span>
+                          </div>
+                        </div>
+                          </form>
+                    </div>            
+            </div>
+        </header>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col" id="First"></div>
+        <div class="col" id="Second"></div>
+        <div class="col" id="Third"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col" id="one"></div>
+        <div class="col" id="two"></div>
+        <div class="col" id="three"></div>
+      </div>
+    </div>
+
+    <div id="title" class="is-inset-bottom-32 results"></div>
+    
+    <div class="container">
+    <footer class="page-footer font-small blue pt-4">
+    <div class="container-fluid text-center text-md-left">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <a href="index.html"><img src="img/logo.svg" class="logo-f"></a>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis illum et suscipit quasi porro</p>
+        </div>
+        <hr class="clearfix w-100 d-md-none pb-3">
+        <div class="col-md-3 mb-md-0 mb-3">
+          <h5>Secciones</h5>
+          <ul class="list-unstyled">
+            <li>
+                <a href="#"><i class="fas fa-fire"></i> Tendencias</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-video"></i> Recomendaciones</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-fire"></i> Tendencias</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-fire"></i> Tendencias</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-md-0 mb-3">
+          <h5 class=>Síguenos!</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i> /YouMovie</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i> @YouMovie</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i> /YouMovie</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i> @YouMovie</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      Hecho por <a href="https://github.com/pinko615" class="copyright">Pinko</a>
+    </div>
+  </footer>
+    </div>
+</div>
+        
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

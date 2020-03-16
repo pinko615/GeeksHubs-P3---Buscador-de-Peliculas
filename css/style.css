@@ -1,0 +1,146 @@
+body {
+    font-family: 'Baloo Chettan 2', cursive;
+    color:white;
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    color: white;
+    margin-top: 100px;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 28px;
+    margin-top: 12px;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 22px;
+    margin-top: 12px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #00d76c;
+    text-decoration: none;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+.fa, .fas, .fab {
+    color: #00d76c;
+}
+
+.container-fluid{
+    padding: 0px;
+    margin:0px;
+    display: grid;
+  }
+
+header {
+    height: 70vh;
+  }
+
+p .white {
+    color:white;
+}
+
+.logo {
+    width: 200px;
+}
+
+.logo-f {
+    width: 150px;
+}
+
+.right{
+	float:right;
+}
+
+.right a {
+	font-size:15px;
+	line-height:20px;
+	color:white;
+	display:inline-block;
+	margin-left:40px;
+	margin-top: 20px;
+}
+
+.right a:hover {
+    color: #00d76c;
+    text-decoration: none;
+}
+
+.input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child) {
+    color:white;
+    border: 1px solid #00d76c;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+}
+
+.form-group {
+    margin-top: 3rem;
+}
+
+#titulo {
+    margin-top:50px;
+    display: block;
+}
+
+footer {
+    border-top: 1px solid white;
+}
+
+.copyright {
+    color: #00d76c;
+}
+
+#First {
+    text-align:center;
+}
+
+#Second {
+    text-align:center;
+}
+
+#Third {
+    text-align:center;
+}
+
+.movieImg {
+    border-radius:5px;
+    position: relative;
+    z-index: -1;
+}
+
+.movieImg:hover {
+    background-color:red;
+}
+
+.Year {
+    position: absolute;
+    font-size: .75rem;
+    font-weight: 700;
+    background-color: #00d76c;
+    color:black;
+    padding: 0 .5rem; 
+    line-height: 1.2rem;
+    border-radius: 1rem;
+    margin-top:6px;
+    margin-left:175px;
+}
+
+.peliculas {
+    margin-top:50px;
+}
