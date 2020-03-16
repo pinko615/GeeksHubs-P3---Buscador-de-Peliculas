@@ -22,7 +22,7 @@ _Versión 2.0_
 
 ## Autor ✒️
 
-* **Martín Pinto Hoffman** - *Diseñador Multimedial / Full Stack Developer* - [pinko615](https://github.com/pinko615)
+* **Martín Pinto Hoffman** - *Full Stack Designer & Developer* - [pinko615](https://github.com/pinko615)
 
 ---
-Hecho con ❤️ por [Pinko615](https://github.com/pinko615) 😊
+Made with ❤️ by [Pinko615](https://github.com/pinko615) 😊
