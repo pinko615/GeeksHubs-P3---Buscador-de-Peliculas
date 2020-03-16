@@ -1,6 +1,6 @@
 # YouMovie Database
 
-_YouMovie provides a simple and easy to use interface to find movies with their info (title, poster path, genre and rate. This website takes the info from themoviedb.org API._
+_YouMovie provides a simple and easy to use interface to find movies with their info (title, poster path, genre and rating. This website takes the info from themoviedb.org API._
 
 ## Firsts steps 🚀
 
