@@ -60,6 +60,7 @@ function buscar() {
           <p class="Year">🗓 ${movies[i].release_date}</p>
           <a href="#"><img src="${urlImagen}${movies[i].poster_path}" class="movieImg"></a>
           <a href="#"><h3 class="title">${movies[i].title}</h3></a>
+          <p>${movies[i].overview}</p>
           <p>⭐️ ${movies[i].vote_average}</p>
           </div>
           `;
@@ -74,7 +75,8 @@ function buscar() {
               <div class="peliculas">
               <p class="Year">🗓 ${movies[i].release_date}</p>
               <a href="#"><img src="${urlImagen}${movies[i].poster_path}" class="movieImg"></a>
-              <h3 class="title">${movies[i].title}</h3>
+              <a href="#"><h3 class="title">${movies[i].title}</h3></a>
+              <p>${movies[i].overview}</p>
               <p>⭐️ ${movies[i].vote_average}</p>
               </div>
               `;
@@ -90,7 +92,8 @@ function buscar() {
                   <div class="peliculas">
                   <p class="Year">🗓 ${movies[i].release_date}</p>
                   <a href="#"><img src="${urlImagen}${movies[i].poster_path}" class="movieImg"></a>
-                  <h3 class="title">${movies[i].title}</h3>
+                  <a href="#"><h3 class="title">${movies[i].title}</h3></a>
+                  <p>${movies[i].overview}</p>
                   <p>⭐️ ${movies[i].vote_average}</p>
                   </div>
                   `;
