@@ -1,26 +1,25 @@
-# Página Web de tourismValencia
+# YouMovie Database
 
-_Página web que promociona diferentes sitios de la Comunidad Valenciana, ofreciendo entradas y novedades para el público de todas las edades.
-Proyecto realizado para GeeksHubs._
+_YouMovie provides a simple and easy to use interface to find movies with their info (title, poster path, genre and rate. This website takes the info from themoviedb.org API._
 
-## Primeros pasos 🚀
+## Firsts steps 🚀
 
-_Puede descargar o clonar este proyecto para ver el código entero de la pagina web_
+_You can download or clone this project to see the code of the entire website._
 
-## Versión 🖥
+## Version 🖥
 
-_Versión 2.0_
+_v1.0_
 
-## Desarrollado con 🛠️
+## Developed with 🛠️
 
 * [HTML5]
 * [CSS]
 * [JavaScript]
 * [Boostrap] https://getbootstrap.com/
-* [API] https://openweathermap.org/
+* [API] https://www.themoviedb.org/
 * [GitHub] https://github.com/pinko615
 
-## Autor ✒️
+## Author ✒️
 
 * **Martín Pinto Hoffman** - *Full Stack Designer & Developer* - [pinko615](https://github.com/pinko615)
 
